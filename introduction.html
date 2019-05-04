@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CLEAN MARKUP = GOOD KARMA.
+      Hi source code lover,
+
+      you're a curious person and a fast learner ;)
+      Let's make something beautiful together. Contribute on Github:
+      https://github.com/webslides/webslides
+
+      Thanks!
+    -->
+
+    <!-- SEO -->
+    <title>Introduction 简介</title>
+    <meta name="description" content="Introduction 简介">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+  <body>
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+              <p><b>1. Introduction</b></p>
+              <p>Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.</p>
+              <p>What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.</p>
+            </div>
+          <!-- .end .wrap -->
+        </section>
+        <section>
+            <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <p><b>1. Introduction</b></p>
+            <p>Commerce on the Internet has come to rely almost exclusively<strong>（排他的）</strong>on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the <strong>trust based model</strong>. Completely nonreversible<strong>（不可逆的）</strong> transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for nonreversible services. With the possibility of reversal the need for trust spreads. Merchants must be wary<strong>（谨慎的）</strong> of their customers, hassling<strong>（找麻烦）</strong> them for more information than they would otherwise need. A certain percentage of fraud<strong>（欺骗）</strong> is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.</p>
+            <p>What is needed is an electronic payment system based on cryptographic proof<strong>（密码学证明）</strong> instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical<strong>（计算上不可实现的）</strong> to reverse<strong>（撤销）</strong> would protect sellers from fraud, and routine escrow mechanisms<strong>（第三方担保机制）</strong> could easily be implemented to protect buyers. <strong>In this paper, we propose a solution to the double-spending problem using a peer-to-peer（点对点） distributed timestamp（时间戳） server to generate computational proof of the chronological（时间序列的） order of transactions. The system is secure as long as honest nodes collectively（共同地） control more CPU power than any cooperating group of attacker nodes.</strong></p>
+          </div>
+            <!-- .end .wrap -->
+        </section>        
+
+      </article>
+    </main>
+    <!--main-->
+
+    <!-- Required -->
+    <script src="static/js/webslides.js"></script>
+
+    <script>
+      window.ws = new WebSlides();
+    </script>
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+
+  </body>
+</html>
