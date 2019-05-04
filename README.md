@@ -1,4 +1,4 @@
-# bitcoin_white_paper_cn_base_on_jupyterlab
+# Bitcoin white paper cn base on jupyterlab
 基于 JupyterLab 的互动式中文版比特币白皮书 
 
 ## 为什么要以比特币为框架入门区块链？
