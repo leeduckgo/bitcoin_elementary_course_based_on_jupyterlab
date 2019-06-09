@@ -25,3 +25,9 @@
 - 英文版比特币白皮书：https://bitcoin.org/bitcoin.pdf
 - 至今为止最好的翻译 by 李笑来：https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md
 - ECDSA 密码学库: https://github.com/warner/python-ecdsa
+
+## 作者联系方式
+
+作者微信二维码：
+
+![qr_code](pics/qr_code.jpg)
