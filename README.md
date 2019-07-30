@@ -1,5 +1,5 @@
-# Bitcoin white paper cn base on jupyterlab
-基于 JupyterLab 的互动式中文版比特币白皮书 
+# Bitcoin course based on jupyterlab
+基于 JupyterLab 的互动式比特币教程
 
 ## 为什么要以比特币为框架入门区块链？
 
@@ -8,7 +8,7 @@
 - 比特币是迄今为止为止最成功的区块链项目
 - 比特币的核心足够简洁，符合「奥卡姆剃刀原则」
 - 比特币的文档 / Wiki 很丰富
-- 比特币有 [Python](https://github.com/petertodd/python-bitcoinlib) 版本的实现，而 Python 版本的源码比较好读。
+- 比特币有 [Python](https://github.com/petertodd/python-bitcoinlib) 版本的实现，而 Python 版本的源码比较好读
 
 ## 本书涉及的内容
 
