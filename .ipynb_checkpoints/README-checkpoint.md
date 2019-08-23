@@ -47,6 +47,10 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 
 ## 作者联系方式
 
+作者公众号：
+
+![大狗哔哔](pics/大狗哔哔.jpeg)
+
 作者微信二维码：
 
 ![qr_code](pics/qr_code.jpg)
