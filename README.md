@@ -2,7 +2,6 @@
 **—— 进入区块链世界的一个绝佳入口**
 
 
-
 **进阶课程地址：**
 
 https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
