@@ -1,5 +1,6 @@
-# Bitcoin Elementary Course Based on JupyterLab
-## 基于 JupyterLab 的互动式比特币教程（入门）
+# 基于 JupyterLab 的互动式比特币教程（入门）
+## —— 进入区块链世界的绝佳入口
+
 
 
 **进阶课程地址：**
