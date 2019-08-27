@@ -1,5 +1,6 @@
 # Bitcoin Elementary Course Based on JupyterLab
-基于 JupyterLab 的互动式比特币教程（入门）
+# 基于 JupyterLab 的互动式比特币教程（入门）
+
 
 **进阶课程地址：**
 
@@ -10,7 +11,7 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 
 - 编程入门者
 
-  可能你已经入门了 Python，可能你刚刚学完[《自学是门手艺》]()。那么把这本教程当成你的第一个「进阶项目」吧！你能体会到编程作为「思考辅助工具」的巨大威力。
+  可能你已经入门了 Python，可能你刚刚学完[《自学是门手艺》](https://github.com/selfteaching/the-craft-of-selfteaching)。那么把这本教程当成你的第一个「进阶项目」吧！你能体会到编程作为「思考辅助工具」的巨大威力。
 
 - 比特币长期投资者
 
