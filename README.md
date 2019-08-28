@@ -49,9 +49,9 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 - 至今为止最好的翻译 by 李笑来：https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md
 - ECDSA 密码学库: https://github.com/warner/python-ecdsa
 
-## 作者联系方式
+## 作者联系方式（加我进学习群）
 
-作者微信二维码，加我进学习群：
+作者微信二维码：
 
 ![qr_code](pics/qr_code.jpg)
 
