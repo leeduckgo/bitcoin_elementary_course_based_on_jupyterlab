@@ -1,6 +1,11 @@
 # 基于 JupyterLab 的比特币极速入门指南
 **—— 进入区块链世界的绝佳入口**
 
+---
+
+**项目主页：**
+
+https://bitcoin.doge.university
 
 **进阶课程地址：**
 
@@ -48,6 +53,7 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 - 英文版比特币白皮书：https://bitcoin.org/bitcoin.pdf
 - 至今为止最好的翻译 by 李笑来：https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md
 - ECDSA 密码学库: https://github.com/warner/python-ecdsa
+- 精通比特币：http://v1.8btc.com/books/261/master_bitcoin/_book/
 
 ## 作者联系方式（加我进学习群）
 
