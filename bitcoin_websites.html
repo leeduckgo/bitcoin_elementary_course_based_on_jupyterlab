@@ -13083,6 +13083,38 @@ div#notebook {
   }
 }
 </style>
+<style>
+  .inPhone { width: 90% !important; padding-bottom: 50px;}
+  .inPhone .input_prompt { display: none; } 
+  .inPhone h1 { font-size: 4rem; }
+  .inPhone .faUl li { margin-top: 30px; }
+  .inPhone .faUl li p{
+    font-size: 3rem;
+  }
+ 
+  .inPhone .faUl li .subUl li{
+    margin-top: 3rem;
+  }
+  .inPhone .faUl li .subUl li:nth-of-type(1) {
+    margin-top: 2rem !important;
+  }
+  .inPhone .faUl li .subUl li p:nth-of-type(1) {
+    line-height: 36px;
+  }
+  .inPhone .faUl li .subUl li p:nth-of-type(2) {
+    margin-top: 1.4rem;
+    line-height: 36px;
+  }
+  .inPhone .title { font-size: 3.6rem !important; margin-top: 4rem; }
+
+  .inPC .faUl li .subUl li p:nth-of-type(2) {
+    margin-top: 0rem !important;
+    line-height: 36px;
+  }
+  .inPC .faUl li .subUl li{
+    margin-top: 1rem;
+  }
+</style>
 
 <!-- Custom stylesheet, it must be in the same directory as the html file -->
 <link rel="stylesheet" href="custom.css">
@@ -13111,94 +13143,150 @@ div#notebook {
     <!-- End of mathjax configuration --></head>
 <body>
   <div tabindex="-1" id="notebook" class="border-box-sizing">
-    <div class="container" id="notebook-container">
+    <div class="container" id="notebook-container" style="width: 80%;">
 
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="&#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;">&#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;<a class="anchor-link" href="#&#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;">&#182;</a></h1><ul>
-<li><p><strong>币</strong></p>
-<ul>
-<li><p>CoinmarketCap —— 查看数字货币的排名与基本信息：</p>
-<p><a href="https://coinmarketcap.com/">https://coinmarketcap.com/</a></p>
-</li>
-<li><p>支持比特币等九种数字货币的浏览器：</p>
-<p><a href="https://blockchair.com/">https://blockchair.com/</a></p>
-</li>
-<li><p>比特币富豪榜及分布现状：</p>
-<p><a href="https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html">https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html</a></p>
-</li>
-<li><p>比特币 24 小时交易数据：</p>
-<p><a href="https://bitinfocharts.com/zh/bitcoin/explorer/">https://bitinfocharts.com/zh/bitcoin/explorer/</a></p>
-</li>
-<li><p>比特币活跃地址统计：</p>
-<p><a href="https://bitinfocharts.com/comparison/activeaddresses-btc.html">https://bitinfocharts.com/comparison/activeaddresses-btc.html</a></p>
-</li>
-<li><p>比特币沉睡地址统计：</p>
-<p><a href="https://bitinfocharts.com/top-100-dormant_5y-bitcoin-addresses.html">https://bitinfocharts.com/top-100-dormant_5y-bitcoin-addresses.html</a></p>
-</li>
-</ul>
-</li>
-<li><p><strong>链</strong></p>
-<ul>
-<li><p>比特币地址生成：</p>
-<p><a href="https://www.bitaddress.org/">https://www.bitaddress.org/</a></p>
-</li>
-<li><p>多版本源码：</p>
-<ul>
-<li><p>比特币 C++ 源码：</p>
-<p><a href="https://github.com/bitcoin/bitcoin">https://github.com/bitcoin/bitcoin</a></p>
-</li>
-<li><p>比特币 Python 源码</p>
-<p><a href="https://github.com/petertodd/python-bitcoinlib">https://github.com/petertodd/python-bitcoinlib</a></p>
-</li>
-<li><p>比特币 Golang 源码</p>
-<p><a href="https://github.com/btcsuite/btcd">https://github.com/btcsuite/btcd</a></p>
-</li>
-<li><p>比特币 Rust 源码</p>
-<p><a href="https://github.com/rust-bitcoin/rust-bitcoin">https://github.com/rust-bitcoin/rust-bitcoin</a></p>
-</li>
-</ul>
-<ul>
-<li>比特币改进建议：</li>
-</ul>
-<p><a href="https://github.com/bitcoin/bips">https://github.com/bitcoin/bips</a></p>
-</li>
-<li><p>比特核心（Bitcoin Core）——比特币开发团队：</p>
-<ul>
-<li><p>官网：</p>
-<p><a href="https://bitcoin.org/en/bitcoin-core">https://bitcoin.org/en/bitcoin-core</a></p>
-</li>
-<li><p>论坛：</p>
-<p><a href="https://bitcointalk.org">https://bitcointalk.org</a></p>
-</li>
-</ul>
-</li>
-<li><p>比特币闪电网络（Lightning Network）开发团队：</p>
-<p><a href="https://blockstream.com/">https://blockstream.com/</a></p>
-</li>
-</ul>
-</li>
-<li><p><strong>矿</strong></p>
-<ul>
-<li><p>比特币减半数据：</p>
-<p><a href="https://www.bitcoinblockhalf.com/">https://www.bitcoinblockhalf.com/</a></p>
-</li>
-<li><p>矿池份额等数据：</p>
-<p><a href="https://explorer.viabtc.com/btc/pool?tabs=0">https://explorer.viabtc.com/btc/pool?tabs=0</a></p>
-</li>
-<li><p>挖矿计算器：</p>
-<p><a href="https://btc.com/tools/mining-calculator">https://btc.com/tools/mining-calculator</a></p>
-</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
-</div>
+      <div class="cell border-box-sizing text_cell rendered">
+        <div class="prompt input_prompt"></div>
+        <div class="inner_cell">
+          <div class="text_cell_render border-box-sizing rendered_html">
+            <h1 id="&#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;">
+                &#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;<a class="anchor-link" href="#&#27604;&#29305;&#24065;&#30456;&#20851;&#32593;&#31449;">&#182;</a>
+            </h1>
+            <ul class="faUl">
+              <li>
+                <p class="title"><strong>币</strong></p>
+                <ul class="subUl">
+                  <li>
+                    <p>CoinmarketCap —— 查看数字货币的排名与基本信息：</p>
+                    <p><a href="https://coinmarketcap.com/">https://coinmarketcap.com/</a></p>
+                  </li>
+                  <li>
+                    <p>支持比特币等九种数字货币的浏览器：</p>
+                    <p><a href="https://blockchair.com/">https://blockchair.com/</a></p>
+                  </li>
+                  <li>
+                    <p>比特币富豪榜及分布现状：</p>
+                    <p><a href="https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html">https://bitinfocharts.com/top-100-richest-bitcoin-addresses.html</a></p>
+                  </li>
+                  <li>
+                    <p>比特币 24 小时交易数据：</p>
+                    <p><a href="https://bitinfocharts.com/zh/bitcoin/explorer/">https://bitinfocharts.com/zh/bitcoin/explorer/</a></p>
+                  </li>
+                  <li>
+                    <p>比特币活跃地址统计：</p>
+                    <p><a href="https://bitinfocharts.com/comparison/activeaddresses-btc.html">https://bitinfocharts.com/comparison/activeaddresses-btc.html</a></p>
+                  </li>
+                  <li>
+                    <p>比特币沉睡地址统计：</p>
+                    <p><a href="https://bitinfocharts.com/top-100-dormant_5y-bitcoin-addresses.html">https://bitinfocharts.com/top-100-dormant_5y-bitcoin-addresses.html</a></p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p class="title"><strong>链</strong></p>
+                <ul class="subUl">
+                  <li>
+                    <p>比特币地址生成：</p>
+                    <p><a href="https://www.bitaddress.org/">https://www.bitaddress.org/</a></p>
+                  </li>
+                  <li>
+                    <p>多版本源码：</p>
+                    <ul>
+                      <li>
+                        <p>比特币 C++ 源码：</p>
+                        <p><a href="https://github.com/bitcoin/bitcoin">https://github.com/bitcoin/bitcoin</a></p>
+                      </li>
+                      <li>
+                        <p>比特币 Python 源码</p>
+                        <p><a href="https://github.com/petertodd/python-bitcoinlib">https://github.com/petertodd/python-bitcoinlib</a></p>
+                      </li>
+                      <li>
+                        <p>比特币 Golang 源码</p>
+                        <p><a href="https://github.com/btcsuite/btcd">https://github.com/btcsuite/btcd</a></p>
+                      </li>
+                      <li>
+                        <p>比特币 Rust 源码</p>
+                        <p><a href="https://github.com/rust-bitcoin/rust-bitcoin">https://github.com/rust-bitcoin/rust-bitcoin</a></p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                      <p>比特币改进建议：</p>
+                      <p><a href="https://github.com/rust-bitcoin/rust-bitcoin">https://github.com/rust-bitcoin/rust-bitcoin</a></p>
+                  </li>
+                  <li>
+                    <p>比特核心（Bitcoin Core）——比特币开发团队：</p>
+                    <ul>
+                      <li>
+                        <p>官网：</p>
+                        <p><a href="https://bitcoin.org/en/bitcoin-core">https://bitcoin.org/en/bitcoin-core</a></p>
+                      </li>
+                      <li>
+                        <p>论坛：</p>
+                        <p><a href="https://bitcointalk.org">https://bitcointalk.org</a></p>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p>比特币闪电网络（Lightning Network）开发团队：</p>
+                    <p><a href="https://blockstream.com/">https://blockstream.com/</a></p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p class="title"><strong>矿</strong></p>
+                <ul class="subUl">
+                  <li>
+                    <p>比特币减半数据：</p>
+                    <p><a href="https://www.bitcoinblockhalf.com/">https://www.bitcoinblockhalf.com/</a></p>
+                  </li>
+                  <li>
+                    <p>矿池份额等数据：</p>
+                    <p><a href="https://explorer.viabtc.com/btc/pool?tabs=0">https://explorer.viabtc.com/btc/pool?tabs=0</a></p>
+                  </li>
+                  <li>
+                    <p>挖矿计算器：</p>
+                    <p><a href="https://btc.com/tools/mining-calculator">https://btc.com/tools/mining-calculator</a></p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+    let bodyContainer = document.getElementById('notebook-container');
+    function rotate (){
+      let isPhone, userAgentInfo = navigator.userAgent + ' '; 
+      if (userAgentInfo.indexOf("Android") != -1 || userAgentInfo.indexOf("iPhone") != -1 || userAgentInfo.indexOf("SymbianOS") != -1 || userAgentInfo.indexOf("Windows Phone") != -1) {
+        isPhone = true
+      }else{
+        isPhone = false;
+      }
+      return isPhone;
+    }
+
+    function reStyle(isPhone) {
+      if(isPhone){
+        bodyContainer.classList.add("inPhone");
+        bodyContainer.classList.remove("inPC");
+      } else {
+        bodyContainer.classList.add("inPC");
+        bodyContainer.classList.remove("inPhone");
+      }
+    }
+    window.addEventListener("resize", function(){
+      let isPhone = rotate();
+      reStyle(isPhone);
+    }, false);
+    
+    let isRefresh = rotate();
+    reStyle(isRefresh);
+            
+  </script>
 </body>
 
  
