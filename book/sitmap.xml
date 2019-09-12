@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[基于 JupyterLab 的比特币及速入门指南]]></title>
+        <description><![CDATA[进入区块链世界的绝佳入口]]></description>
+        <link>https://bitcoin.doge.university/book</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Thu, 12 Sep 2019 09:44:43 GMT</lastBuildDate>
+        <atom:link href="https://bitcoin.doge.university/book/sitmap.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[李大狗]]></author>
+        <managingEditor><![CDATA[leeduckg@gmail.com]]></managingEditor>
+        <webMaster><![CDATA[leeduckg@gmail.com]]></webMaster>
+        <category><![CDATA[gitbook]]></category>
+        <item>
+            <title><![CDATA[基于 JupyterLab 的比特币极速入门指南]]></title>
+            <description><![CDATA[—— 进入区块链世界的绝佳入口]]></description>
+            <link>https://bitcoin.doge.university/book</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[1 简介（Introduction）]]></title>
+            <description><![CDATA[Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.]]></description>
+            <link>https://bitcoin.doge.university/book1_Introduction_简介.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book1_Introduction_简介.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[2.1 交易（Transactions）—— 电子货币的定义]]></title>
+            <description><![CDATA[We define an electronic coin as a chain of digital signatures. Each owner transfers the coin to the next by digitally signing a hash of the previous transaction and the public key of the next owner and adding these to the end of the coin. A payee can verify the signatures to verify the chain of ownership.]]></description>
+            <link>https://bitcoin.doge.university/book2.1_Transaction_交易_电子货币的定义.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book2.1_Transaction_交易_电子货币的定义.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[2.2 交易（Transactions）—— 交易链的难点]]></title>
+            <description><![CDATA[The problem of course is the payee can't verify that one of the owners did not double-spend the coin. A common solution is to introduce a trusted central authority, or mint, that checks every transaction for double spending. After each transaction, the coin must be returned to the mint to issue a new coin, and only coins issued directly from the mint are trusted not to be double-spent. The problem with this solution is that the fate of the entire money system depends on the company running the mint, with every transaction having to go through them, just like a bank.]]></description>
+            <link>https://bitcoin.doge.university/book2.2_Transaction_交易_交易链的难点.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book2.2_Transaction_交易_交易链的难点.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[3 时间戳服务器 (Timestamp Server) —— 区块的链]]></title>
+            <description><![CDATA[The solution we propose begins with a timestamp server. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash, such as in a newspaper or Usenet post**[2-5]**. The timestamp proves that the data must have existed at the time, obviously, in order to get into the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.]]></description>
+            <link>https://bitcoin.doge.university/book3_TimeStamp_Server_时间戳服务器.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book3_TimeStamp_Server_时间戳服务器.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[4 工作量证明 (Proof-of-Work)]]></title>
+            <description><![CDATA[To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back's Hashcash**[6]**, rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.]]></description>
+            <link>https://bitcoin.doge.university/book4_Proof-of-Work_工作量证明.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book4_Proof-of-Work_工作量证明.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[5 网络 (Network)]]></title>
+            <description><![CDATA[在 Transactions、Timestamp Server、Proof-of-Work 这三节的基础上，Network 这一节简明地阐述了区块链网络的运行机理。]]></description>
+            <link>https://bitcoin.doge.university/book5_Network_网络.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book5_Network_网络.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[6 激励（Incentive）]]></title>
+            <description><![CDATA[By convention, the first transaction in a block is a special transaction that starts a new coin owned by the creator of the block. This adds an incentive for nodes to support the network, and provides a way to initially distribute coins into circulation, since there is no central authority to issue them. The steady addition of a constant of amount of new coins is analogous to gold miners expending resources to add gold to circulation. In our case, it is CPU time and electricity that is expended.]]></description>
+            <link>https://bitcoin.doge.university/book6_Incentive_奖励.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book6_Incentive_奖励.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[7 回收硬盘空间（Reclaiming Disk Space）]]></title>
+            <description><![CDATA[Once the latest transaction in a coin is buried under enough blocks, the spent transactions before it can be discarded to save disk space. To facilitate this without breaking the block's hash, transactions are hashed in a Merkle Tree [2][5][7] , with only the root included in the block's hash. Old blocks can then be compacted by stubbing off branches of the tree. The interior hashes do not need to be stored.]]></description>
+            <link>https://bitcoin.doge.university/book7_Reclaiming_Disk_Space_回收硬盘空间.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book7_Reclaiming_Disk_Space_回收硬盘空间.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[8 简化版支付确认（Simplified Payment Verification Privacy）]]></title>
+            <description><![CDATA[It is possible to verify payments without running a full network node. A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain, and obtain the Merkle branch linking the transaction to the block it's timestamped in. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it.]]></description>
+            <link>https://bitcoin.doge.university/book8_Simplified_Payment_Verification_简化版支付确认.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book8_Simplified_Payment_Verification_简化版支付确认.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[9 Combining and Splitting Value（值的组合与分割）]]></title>
+            <description><![CDATA[Although it would be possible to handle coins individually, it would be unwieldy to make a separate transaction for every cent in a transfer. To allow value to be split and combined, transactions contain multiple inputs and outputs. Normally there will be either a single input from a larger previous transaction or multiple inputs combining smaller amounts, and at most two outputs: one for the payment, and one returning the change, if any, back to the sender.]]></description>
+            <link>https://bitcoin.doge.university/book9_Combining_and_Splitting_Value_值的组合与分割.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book9_Combining_and_Splitting_Value_值的组合与分割.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[10 隐私（Privacy）]]></title>
+            <description><![CDATA[The traditional banking model achieves a level of privacy by limiting access to information to the parties involved and the trusted third party. The necessity to announce all transactions publicly precludes this method, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous. The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.]]></description>
+            <link>https://bitcoin.doge.university/book10_Privacy_隐私.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book10_Privacy_隐私.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[11 计算（Calculations）]]></title>
+            <description><![CDATA[We consider the scenario of an attacker trying to generate an alternate chain faster than the honest chain. Even if this is accomplished, it does not throw the system open to arbitrary changes, such as creating value out of thin air or taking money that never belonged to the attacker. Nodes are not going to accept an invalid transaction as payment, and honest nodes will never accept a block containing them. An attacker can only try to change one of his own transactions to take back money he recently spent.]]></description>
+            <link>https://bitcoin.doge.university/book11_Calculations_计算.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book11_Calculations_计算.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[12 结论（Conclusion）]]></title>
+            <description><![CDATA[We have proposed a system for electronic transactions without relying on trust. We started with the usual framework of coins made from digital signatures, which provides strong control of ownership, but is incomplete without a way to prevent double-spending. To solve this, we proposed a peer-to-peer network using proof-of-work to record a public history of transactions that quickly becomes computationally impractical for an attacker to change if honest nodes control a majority of CPU power. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism.]]></description>
+            <link>https://bitcoin.doge.university/book12_Conclusion_结论.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book12_Conclusion_结论.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[原文：]]></description>
+            <link>https://bitcoin.doge.university/book【附】白皮书_原文+翻译+单词注释.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book【附】白皮书_原文+翻译+单词注释.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[比特币相关网站]]></title>
+            <link>https://bitcoin.doge.university/book【附2】比特币相关网站.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book【附2】比特币相关网站.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://bitcoin.doge.university/book【附3】习题集.html</link>
+            <guid isPermaLink="true">https://bitcoin.doge.university/book【附3】习题集.html</guid>
+            <dc:creator><![CDATA[李大狗]]></dc:creator>
+        </item>
+    </channel>
+</rss>

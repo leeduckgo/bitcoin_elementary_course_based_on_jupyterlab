@@ -1,33 +1,90 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-hans" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>4 Proof-of-Work 工作量证明 · GitBook</title>
+        <title>4 Proof-of-Work 工作量证明 · 基于 JupyterLab 的比特币极速入门指南</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="李大狗">
         
         
-        
+    
     
     <link rel="stylesheet" href="gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-alerts/style.css">
                 
             
                 
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
         
 
     
@@ -46,7 +103,14 @@
         
     
 
+
+    
+
         
+    
+    
+    
+    
     
     
     <meta name="HandheldFriendly" content="true"/>
@@ -63,6 +127,26 @@
     <link rel="prev" href="3_TimeStamp_Server_时间戳服务器.html" />
     
 
+    
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    <link href="https://bitcoin.doge.university/book/sitmap.xml" title="基于 JupyterLab 的比特币及速入门指南" rel="alternate" type="application/rss+xml" />
+
+    
+        <link rel="shortcut icon" href='favicon.png' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='favicon.png' type="image/x-icon">
+    
+    
+    
+
     </head>
     <body>
         
@@ -71,7 +155,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="输入并搜索" />
 </div>
 
             
@@ -82,7 +166,16 @@
 <ul class="summary">
     
     
+    
+        
+        <li>
+            <a href="https://bitcoin.doge.university" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
 
+    
+    <li class="divider"></li>
     
 
     
@@ -93,6 +186,8 @@
             
                 <a href="./">
             
+                    
+                        <b>1.1.</b>
                     
                     0 序言
             
@@ -107,6 +202,8 @@
                 <a href="1_Introduction_简介.html">
             
                     
+                        <b>1.2.</b>
+                    
                     1 简介
             
                 </a>
@@ -119,6 +216,8 @@
             
                 <a href="2.1_Transaction_交易_电子货币的定义.html">
             
+                    
+                        <b>1.3.</b>
                     
                     2.1 Transaction 交易 —— 电子货币的定义
             
@@ -133,6 +232,8 @@
                 <a href="2.2_Transaction_交易_交易链的难点.html">
             
                     
+                        <b>1.4.</b>
+                    
                     2.2 Transaction 交易 —— 交易链的难点
             
                 </a>
@@ -145,6 +246,8 @@
             
                 <a href="3_TimeStamp_Server_时间戳服务器.html">
             
+                    
+                        <b>1.5.</b>
                     
                     3 TimeStamp_Server 时间戳服务器
             
@@ -159,6 +262,8 @@
                 <a href="4_Proof-of-Work_工作量证明.html">
             
                     
+                        <b>1.6.</b>
+                    
                     4 Proof-of-Work 工作量证明
             
                 </a>
@@ -171,6 +276,8 @@
             
                 <a href="5_Network_网络.html">
             
+                    
+                        <b>1.7.</b>
                     
                     5 Network 网络
             
@@ -185,6 +292,8 @@
                 <a href="6_Incentive_奖励.html">
             
                     
+                        <b>1.8.</b>
+                    
                     6 Incentive 奖励
             
                 </a>
@@ -197,6 +306,8 @@
             
                 <a href="7_Reclaiming_Disk_Space_回收硬盘空间.html">
             
+                    
+                        <b>1.9.</b>
                     
                     7 Reclaiming Disk Space 回收硬盘空间
             
@@ -211,6 +322,8 @@
                 <a href="8_Simplified_Payment_Verification_简化版支付确认.html">
             
                     
+                        <b>1.10.</b>
+                    
                     8 Simplified Payment Verification 简化版支付确认
             
                 </a>
@@ -223,6 +336,8 @@
             
                 <a href="9_Combining_and_Splitting_Value_值的组合与分割.html">
             
+                    
+                        <b>1.11.</b>
                     
                     9 Combining and Splitting Value 值的组合与分割
             
@@ -237,6 +352,8 @@
                 <a href="10_Privacy_隐私.html">
             
                     
+                        <b>1.12.</b>
+                    
                     10 Privacy 隐私
             
                 </a>
@@ -249,6 +366,8 @@
             
                 <a href="11_Calculations_计算.html">
             
+                    
+                        <b>1.13.</b>
                     
                     11 Calculations 计算
             
@@ -263,6 +382,8 @@
                 <a href="12_Conclusion_结论.html">
             
                     
+                        <b>1.14.</b>
+                    
                     12 Conclusion 结论
             
                 </a>
@@ -275,6 +396,8 @@
             
                 <a href="【附】白皮书_原文+翻译+单词注释.html">
             
+                    
+                        <b>1.15.</b>
                     
                     【附】白皮书 原文+翻译+单词注释
             
@@ -289,6 +412,8 @@
                 <a href="【附2】比特币相关网站.html">
             
                     
+                        <b>1.16.</b>
+                    
                     【附2】比特币相关网站
             
                 </a>
@@ -301,6 +426,8 @@
             
                 <a href="【附3】习题集.html">
             
+                    
+                        <b>1.17.</b>
                     
                     【附3】习题集
             
@@ -317,7 +444,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本书使用 GitBook 发布
         </a>
     </li>
 </ul>
@@ -355,8 +482,8 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work">4 &#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E; (Proof-of-Work)</h1>
-<h2 id="&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;">&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;</h2>
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work">1. 4 &#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E; (Proof-of-Work)</a></li><ul><li><a href="#&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;">1.1. &#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;</a></li><li><a href="#&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;">1.2. &#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;</a></li><li><a href="#nonce-&#x751F;&#x6210;&#x5B9E;&#x6218;">1.3. Nonce &#x751F;&#x6210;&#x5B9E;&#x6218;</a></li></ul></ul></div><a href="#4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work"><a name="4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work" class="anchor-navigation-ex-anchor" href="#4-&#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E;-proof-of-work"><i class="fa fa-link" aria-hidden="true"></i></a>1. 4 &#x5DE5;&#x4F5C;&#x91CF;&#x8BC1;&#x660E; (Proof-of-Work)</h1>
+<h2 id="&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;"><a name="&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;" class="anchor-navigation-ex-anchor" href="#&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;</h2>
 <p>To implement a distributed timestamp server on a peer-to-peer basis, we will need to use a proof-of-work system similar to Adam Back&apos;s Hashcash<strong>[6]</strong>, rather than newspaper or Usenet posts. The proof-of-work involves scanning for a value that when hashed, such as with SHA-256, the hash begins with a number of zero bits. The average work required is exponential in the number of zero bits required and can be verified by executing a single hash.</p>
 <p>&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x70B9;&#x5BF9;&#x70B9;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x65F6;&#x95F4;&#x6233;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x7C7B;&#x4F3C;&#x4E9A;&#x5F53;&#xB7;&#x4F2F;&#x514B;&#x7684;&#x54C8;&#x5E0C;&#x73B0;&#x91D1;<strong>[6]</strong>&#x90A3;&#x6837;&#x7684;&#x4E00;&#x4E2A;&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#x7CFB;&#x7EDF;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x62A5;&#x7EB8;&#x6216;&#x8005;&#x65B0;&#x95FB;&#x7EC4;&#x5E16;&#x5B50;&#x90A3;&#x6837;&#x7684;&#x4E1C;&#x897F;&#x3002;&#x6240;&#x8C13;&#x7684;&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#xFF0C;&#x5C31;&#x662F;&#x53BB;&#x5BFB;&#x627E;&#x4E00;&#x4E2A;&#x6570;&#x503C;&#xFF1B;&#x8FD9;&#x4E2A;&#x6570;&#x503C;&#x8981;&#x6EE1;&#x8DB3;&#x4EE5;&#x4E0B;&#x6761;&#x4EF6;&#xFF1A;&#x4E3A;&#x5B83;&#x63D0;&#x53D6;&#x6563;&#x5217;&#x6570;&#x503C;&#x4E4B;&#x540E; &#x2014;&#x2014; &#x4F8B;&#x5982;&#x4F7F;&#x7528; SHA-256 &#x8BA1;&#x7B97;&#x6563;&#x5217;&#x6570;&#x503C; &#x2014;&#x2014; &#x8FD9;&#x4E2A;&#x6563;&#x5217;&#x6570;&#x503C;&#x5FC5;&#x987B;&#x4EE5;&#x4E00;&#x5B9A;&#x6570;&#x91CF;&#x7684; 0 &#x5F00;&#x5934;&#x3002;&#x6BCF;&#x589E;&#x52A0;&#x4E00;&#x4E2A; 0 &#x7684;&#x8981;&#x6C42;&#xFF0C;&#x5C06;&#x4F7F;&#x5F97;&#x5DE5;&#x4F5C;&#x91CF;&#x6307;&#x6570;&#x7EA7;&#x589E;&#x52A0;&#xFF0C;&#x5E76;&#x4E14;&#xFF0C;&#x8FD9;&#x4E2A;&#x5DE5;&#x4F5C;&#x91CF;&#x7684;&#x9A8C;&#x8BC1;&#x5374;&#x53EA;&#x9700;&#x901A;&#x8FC7;&#x8BA1;&#x7B97;&#x4E00;&#x4E2A;&#x54C8;&#x5E0C;&#x3002;</p>
 <p>For our timestamp network, we implement the proof-of-work by incrementing a nonce in the block until a value is found that gives the block&apos;s hash the required zero bits. Once the CPU effort has been expended to make it satisfy the proof-of-work, the block cannot be changed without redoing the work. As later blocks are chained after it, the work to change the block would include redoing all the blocks after it.</p>
@@ -366,68 +493,70 @@
 <p>&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#x540C;&#x65F6;&#x89E3;&#x51B3;&#x4E86;&#x5982;&#x4F55;&#x51B3;&#x5B9A;&#x8C01;&#x80FD;&#x4EE3;&#x8868;&#x5927;&#x591A;&#x6570;&#x505A;&#x51B3;&#x5B9A;&#x7684;&#x95EE;&#x9898;&#x3002;&#x5982;&#x679C;&#x6240;&#x8C13;&#x7684;&#x201C;&#x5927;&#x591A;&#x6570;&#x201D;&#x662F;&#x57FA;&#x4E8E;&#x201C;&#x4E00;&#x4E2A; IP &#x5730;&#x5740;&#x4E00;&#x7968;&#x201D;&#x7684;&#x65B9;&#x5F0F;&#x51B3;&#x5B9A;&#x7684;&#x8BDD;&#xFF0C;&#x90A3;&#x4E48;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x641E;&#x5B9A;&#x5F88;&#x591A; IP &#x5730;&#x5740;&#x7684;&#x4EBA;&#x5C31;&#x53EF;&#x4EE5;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x201C;&#x5927;&#x591A;&#x6570;&#x201D;&#x3002;&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#x672C;&#x8D28;&#x4E0A;&#x6765;&#x770B;&#xFF0C;&#x662F;&#x201C;&#x4E00;&#x4E2A; CPU&#xFF08;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x4E00;&#x4EFD;&#x7B97;&#x529B;&#xFF09; &#x4E00;&#x7968;&#x201D;&#x3002;&#x6240;&#x8C13;&#x7684;&#x201C;&#x5927;&#x591A;&#x6570;&#x51B3;&#x5B9A;&#x201D;&#x662F;&#x7531;&#x6700;&#x957F;&#x94FE;&#x6240;&#x4EE3;&#x8868;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x88AB;&#x6295;&#x5165;&#x6700;&#x591A;&#x5DE5;&#x4F5C;&#x7684;&#x94FE;&#x5C31;&#x662F;&#x5B83;&#x3002;&#x5982;&#x679C;&#x5927;&#x591A;&#x6570; CPU &#x7B97;&#x529B;&#x88AB;&#x8BDA;&#x5B9E;&#x7684;&#x8282;&#x70B9;&#x6240;&#x63A7;&#x5236;&#xFF0C;&#x90A3;&#x4E48;&#x8BDA;&#x5B9E;&#x94FE;&#x6210;&#x957F;&#x6700;&#x4E3A;&#x8FC5;&#x901F;&#xFF0C;&#x5176;&#x901F;&#x5EA6;&#x4F1A;&#x8FDC;&#x8D85;&#x5176;&#x4ED6;&#x7ADE;&#x4E89;&#x94FE;&#x3002;&#x4E3A;&#x4E86;&#x66F4;&#x6539;&#x4E00;&#x4E2A;&#x5DF2;&#x7ECF;&#x4EA7;&#x751F;&#x7684;&#x533A;&#x5757;&#xFF0C;&#x653B;&#x51FB;&#x8005;&#x5C06;&#x4E0D;&#x5F97;&#x4E0D;&#x91CD;&#x65B0;&#x5B8C;&#x6210;&#x90A3;&#x4E2A;&#x533A;&#x5757;&#x4EE5;&#x53CA;&#x6240;&#x6709;&#x5176;&#x540E;&#x533A;&#x5757;&#x7684;&#x7684;&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#xFF0C;&#x800C;&#x540E;&#x8FD8;&#x8981;&#x8FFD;&#x4E0A;&#x5E76;&#x8D85;&#x8FC7;&#x8BDA;&#x5B9E;&#x8282;&#x70B9;&#x7684;&#x5DE5;&#x4F5C;&#x3002;&#x540E;&#x6587;&#x5C55;&#x793A;&#x4E3A;&#x4EC0;&#x4E48;&#x4E00;&#x4E2A;&#x88AB;&#x62D6;&#x5EF6;&#x4E86;&#x7684;&#x653B;&#x51FB;&#x8005;&#x80FD;&#x591F;&#x8FFD;&#x4E0A;&#x7684;&#x53EF;&#x80FD;&#x6027;&#x5C06;&#x968F;&#x7740;&#x533A;&#x5757;&#x7684;&#x4E0D;&#x65AD;&#x589E;&#x52A0;&#x800C;&#x6307;&#x6570;&#x7EA7;&#x964D;&#x4F4E;&#x3002;</p>
 <p>To compensate for increasing hardware speed and varying interest in running nodes over time, the proof-of-work difficulty is determined by a moving average targeting an average number of blocks per hour. If they&apos;re generated too fast, the difficulty increases.</p>
 <p><strong>&#x4E3A;&#x4E86;&#x5E94;&#x5BF9;&#x786C;&#x4EF6;&#x7B97;&#x529B;&#x7EFC;&#x5408;&#x7684;&#x4E0D;&#x65AD;&#x589E;&#x52A0;&#xFF0C;&#x4EE5;&#x53CA;&#x968F;&#x7740;&#x65F6;&#x95F4;&#x63A8;&#x8FDB;&#x53EF;&#x80FD;&#x4EA7;&#x751F;&#x7684;&#x8282;&#x70B9;&#x53C2;&#x4E0E;&#x6570;&#x91CF;&#x53D8;&#x5316;&#xFF0C;&#x5DE5;&#x4F5C;&#x8BC1;&#x660E;&#x96BE;&#x5EA6;&#x7531;&#x6B64;&#x51B3;&#x5B9A;&#xFF1A;&#x57FA;&#x4E8E;&#x5E73;&#x5747;&#x6BCF;&#x5C0F;&#x65F6;&#x4EA7;&#x751F;&#x7684;&#x533A;&#x5757;&#x6570;&#x91CF;&#x7684;&#x4E00;&#x4E2A;&#x79FB;&#x52A8;&#x5E73;&#x5747;&#x503C;&#x3002;&#x5982;&#x679C;&#x533A;&#x5757;&#x751F;&#x6210;&#x5F97;&#x8FC7;&#x5FEB;&#xFF0C;&#x90A3;&#x4E48;&#x96BE;&#x5EA6;&#x5C06;&#x4F1A;&#x589E;&#x52A0;&#x3002;</strong></p>
-<h2 id="&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;">&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;</h2>
+<h2 id="&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;"><a name="&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;" class="anchor-navigation-ex-anchor" href="#&#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x91CD;&#x8981;&#x6982;&#x5FF5;&#x89E3;&#x6790;</h2>
 <ul>
 <li><a href="https://en.bitcoin.it/wiki/Nonce" target="_blank">Nonce</a></li>
 </ul>
 <p><img src="pics/nonce.png" alt="nonce"></p>
 <p>&#x6BD4;&#x7279;&#x5E01;&#x533A;&#x5757;&#x4E2D;&#x7684; nonce &#x662F;&#x4E00;&#x4E2A; 32 &#x4F4D;&#xFF08;4 &#x5B57;&#x8282;&#xFF09;&#x7684;&#x5B57;&#x6BB5;&#x3002;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x5B57;&#x6BB5;&#xFF0C;&#x533A;&#x5757;&#x7684;&#x54C8;&#x5E0C;&#x503C;&#xFF08;&#x4E00;&#x4E32; 16 &#x8FDB;&#x5236;&#x6570;&#x5B57;&#xFF09;&#x5C0F;&#x4E8E;&#x6216;&#x7B49;&#x4E8E;&#x76EE;&#x524D;&#x7F51;&#x7EDC;&#x7684;&#x76EE;&#x6807;&#xFF0C;&#x4E5F;&#x5373;&#x8868;&#x793A;&#x77FF;&#x5DE5;&#x5B9E;&#x73B0;&#x4E86;&#x67D0;&#x4E2A;&#x5DE5;&#x4F5C;&#x91CF;&#x3002;&#x8FD9;&#x4E2A;&#x5B57;&#x6BB5;&#x548C;&#x5176;&#x5B83;&#x5B57;&#x6BB5;&#x662F;&#x72EC;&#x7ACB;&#x7684;&#xFF0C;&#x4E5F;&#x5373;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x5176;&#x5B83;&#x7684;&#x5B57;&#x6BB5;&#x3002; </p>
 <p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;Nonce &#x662F;&#x4E00;&#x4E2A;&#x53D8;&#x5316;&#x7684;&#x503C;&#x3002;&#x53EF;&#x4EE5;&#x628A;&#x5B83;&#x5F53;&#x6210;&#x6BD4;&#x7279;&#x5E01;&#x7CFB;&#x7EDF;&#x7684;&#x4E00;&#x4E2A;<strong>&#x300C;&#x64CD;&#x63A7;&#x6746;&#x300D;</strong>&#x3002;&#x6B63;&#x662F;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x64CD;&#x63A7;&#x6746;&#xFF0C;&#x4E0D;&#x7BA1;&#x6709;&#x591A;&#x5C11;&#x7B97;&#x529B;&#x6295;&#x5165;&#x4E86;&#x8FD9;&#x4E2A;&#x7CFB;&#x7EDF;&#xFF0C;&#x4E5F;&#x80FD;&#x4FDD;&#x8BC1;&#x5E73;&#x5747;&#x5341;&#x5206;&#x949F;&#x51FA;&#x4E00;&#x4E2A;&#x5757;&#x3002;</p>
-<h2 id="nonce-&#x751F;&#x6210;&#x5B9E;&#x6218;">Nonce &#x751F;&#x6210;&#x5B9E;&#x6218;</h2>
+<h2 id="nonce-&#x751F;&#x6210;&#x5B9E;&#x6218;"><a name="nonce-&#x751F;&#x6210;&#x5B9E;&#x6218;" class="anchor-navigation-ex-anchor" href="#nonce-&#x751F;&#x6210;&#x5B9E;&#x6218;"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. Nonce &#x751F;&#x6210;&#x5B9E;&#x6218;</h2>
 <p>&#x3010;Python &#x77E5;&#x8BC6;&#x70B9;&#x3011; &#x70B9;&#x51FB;&#x94FE;&#x63A5;&#x8DF3;&#x8F6C;&#x81F3;&#x300A;&#x81EA;&#x5B66;&#x662F;&#x95E8;&#x624B;&#x827A;&#x300B;&#x76F8;&#x5E94;&#x77E5;&#x8BC6;&#x70B9;</p>
 <ul>
 <li><a href="https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/Part.2.D.1-args.ipynb" target="_blank">&#x51FD;&#x6570;</a></li>
 <li><a href="https://github.com/selfteaching/the-craft-of-selfteaching/blob/master/Part.1.E.3.controlflow.ipynb" target="_blank">&#x6D41;&#x7A0B;&#x63A7;&#x5236; &#x2014;&#x2014; if &#x8BED;&#x53E5;&#x4E0E; while &#x5FAA;&#x73AF;</a></li>
 </ul>
-<pre><code class="lang-python"><span class="hljs-keyword">import</span> hashlib
-<span class="hljs-keyword">import</span> random
-<span class="hljs-keyword">import</span> time
+<pre class="language-"><code class="lang-python"><span class="token keyword">import</span> hashlib
+<span class="token keyword">import</span> random
+<span class="token keyword">import</span> time
 
-text = <span class="hljs-string">&quot;Long bitcoin, short the world.&quot;</span>
+text <span class="token operator">=</span> <span class="token string">&quot;Long bitcoin, short the world.&quot;</span>
 
-<span class="hljs-comment"># &#x5B9A;&#x4E49; valid &#x51FD;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x751F;&#x6210;&#x7684; hash &#x5F00;&#x5934;&#x6709; zero_num &#x4E2A;&#x96F6;&#xFF0C;&#x5219; nonce &#x8FBE;&#x5230;&#x8981;&#x6C42;</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">valid</span><span class="hljs-params">(hash,zero_num)</span>:</span>
-    <span class="hljs-keyword">return</span> hash[<span class="hljs-number">0</span>: zero_num] == <span class="hljs-string">&quot;0&quot;</span> * zero_num
+<span class="token comment"># &#x5B9A;&#x4E49; valid &#x51FD;&#x6570;&#xFF0C;&#x5982;&#x679C;&#x751F;&#x6210;&#x7684; hash &#x5F00;&#x5934;&#x6709; zero_num &#x4E2A;&#x96F6;&#xFF0C;&#x5219; nonce &#x8FBE;&#x5230;&#x8981;&#x6C42;</span>
+<span class="token keyword">def</span> <span class="token function">valid</span><span class="token punctuation">(</span><span class="token builtin">hash</span><span class="token punctuation">,</span>zero_num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token builtin">hash</span><span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">:</span> zero_num<span class="token punctuation">]</span> <span class="token operator">==</span> <span class="token string">&quot;0&quot;</span> <span class="token operator">*</span> zero_num
 </code></pre>
-<pre><code class="lang-python"><span class="hljs-comment"># &#x901A;&#x8FC7;&#x968F;&#x673A;&#x78B0;&#x649E;&#x1F4A5;&#x5BFB;&#x627E; Nonce &#x7684;&#x51FD;&#x6570;</span>
-<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">find_nonce</span><span class="hljs-params">(text, zero_num)</span>:</span>
-    start = time.time()
-    find = <span class="hljs-keyword">False</span>
-    <span class="hljs-keyword">while</span> <span class="hljs-keyword">not</span> find:
-        nonce = random.randint(<span class="hljs-number">1</span>, <span class="hljs-number">10000000</span>)
-        payload = (text + str(nonce)).encode()
-        hash = hashlib.sha256(payload).hexdigest()
-        <span class="hljs-keyword">if</span> valid(hash,zero_num):
-            print(<span class="hljs-string">&quot;sha256({} + text) =&gt; {}&quot;</span>.format(nonce, hash))
-            print(<span class="hljs-string">&quot;nonce is {}&quot;</span>.format(nonce))
-            end = time.time()
-            print(<span class="hljs-string">&quot;&#x627E;&#x5230; nonce &#x65F6;&#x95F4;: {}&quot;</span>.format(end-start))
-            find = <span class="hljs-keyword">True</span>
+<pre class="language-"><code class="lang-python"><span class="token comment"># &#x901A;&#x8FC7;&#x968F;&#x673A;&#x78B0;&#x649E;&#x1F4A5;&#x5BFB;&#x627E; Nonce &#x7684;&#x51FD;&#x6570;</span>
+<span class="token keyword">def</span> <span class="token function">find_nonce</span><span class="token punctuation">(</span>text<span class="token punctuation">,</span> zero_num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    start <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    find <span class="token operator">=</span> <span class="token boolean">False</span>
+    <span class="token keyword">while</span> <span class="token keyword">not</span> find<span class="token punctuation">:</span>
+        nonce <span class="token operator">=</span> random<span class="token punctuation">.</span>randint<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">10000000</span><span class="token punctuation">)</span>
+        payload <span class="token operator">=</span> <span class="token punctuation">(</span>text <span class="token operator">+</span> <span class="token builtin">str</span><span class="token punctuation">(</span>nonce<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span>encode<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token builtin">hash</span> <span class="token operator">=</span> hashlib<span class="token punctuation">.</span>sha256<span class="token punctuation">(</span>payload<span class="token punctuation">)</span><span class="token punctuation">.</span>hexdigest<span class="token punctuation">(</span><span class="token punctuation">)</span>
+        <span class="token keyword">if</span> valid<span class="token punctuation">(</span><span class="token builtin">hash</span><span class="token punctuation">,</span>zero_num<span class="token punctuation">)</span><span class="token punctuation">:</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;sha256({} + text) =&gt; {}&quot;</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>nonce<span class="token punctuation">,</span> <span class="token builtin">hash</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;nonce is {}&quot;</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>nonce<span class="token punctuation">)</span><span class="token punctuation">)</span>
+            end <span class="token operator">=</span> time<span class="token punctuation">.</span>time<span class="token punctuation">(</span><span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">&quot;&#x627E;&#x5230; nonce &#x65F6;&#x95F4;: {}&quot;</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>end<span class="token operator">-</span>start<span class="token punctuation">)</span><span class="token punctuation">)</span>
+            find <span class="token operator">=</span> <span class="token boolean">True</span>
 </code></pre>
-<pre><code class="lang-python">find_nonce(text, <span class="hljs-number">1</span>)
+<pre class="language-"><code class="lang-python">find_nonce<span class="token punctuation">(</span>text<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span>
 </code></pre>
-<pre><code>sha256(8676133 + text) =&gt; 0ae8c647021d4f38c4325fe38f7474ea6b8ceb851632e40eb0abfddcc472e5df
+<pre class="language-"><code>sha256(8676133 + text) =&gt; 0ae8c647021d4f38c4325fe38f7474ea6b8ceb851632e40eb0abfddcc472e5df
 nonce is 8676133
 &#x627E;&#x5230; nonce &#x65F6;&#x95F4;: 0.0003352165222167969
-</code></pre><pre><code class="lang-python">find_nonce(text, <span class="hljs-number">2</span>)
+</code></pre><pre class="language-"><code class="lang-python">find_nonce<span class="token punctuation">(</span>text<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span>
 </code></pre>
-<pre><code>sha256(4350470 + text) =&gt; 00165f427b28a8e8ec8a83e5cab331a43121ef9752a7c821d8a666a4b57f3af9
+<pre class="language-"><code>sha256(4350470 + text) =&gt; 00165f427b28a8e8ec8a83e5cab331a43121ef9752a7c821d8a666a4b57f3af9
 nonce is 4350470
 &#x627E;&#x5230; nonce &#x65F6;&#x95F4;: 0.002769947052001953
-</code></pre><pre><code class="lang-python">find_nonce(text, <span class="hljs-number">3</span>)
+</code></pre><pre class="language-"><code class="lang-python">find_nonce<span class="token punctuation">(</span>text<span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">)</span>
 </code></pre>
-<pre><code>sha256(7990813 + text) =&gt; 000a4e2d72e1d447f9a564d718434db5eaf5ba2690b42207d952a640bfeb1ef9
+<pre class="language-"><code>sha256(7990813 + text) =&gt; 000a4e2d72e1d447f9a564d718434db5eaf5ba2690b42207d952a640bfeb1ef9
 nonce is 7990813
 &#x627E;&#x5230; nonce &#x65F6;&#x95F4;: 0.006875276565551758
-</code></pre><pre><code class="lang-python">find_nonce(text, <span class="hljs-number">5</span>)
+</code></pre><pre class="language-"><code class="lang-python">find_nonce<span class="token punctuation">(</span>text<span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span>
 </code></pre>
-<pre><code>sha256(8812787 + text) =&gt; 000007e8cf2efd2ad71a5e207a112c60d35aef3bc227e707727365d6982d3ae2
+<pre class="language-"><code>sha256(8812787 + text) =&gt; 000007e8cf2efd2ad71a5e207a112c60d35aef3bc227e707727365d6982d3ae2
 nonce is 8812787
 &#x627E;&#x5230; nonce &#x65F6;&#x95F4;: 0.07970809936523438
 </code></pre><p>&#x4E0A;&#x8FF0;&#x5B9E;&#x9A8C;&#x8868;&#x73B0;&#x4E86;&#x5982;&#x4E0B;&#x4E8B;&#x5B9E;&#xFF1A;</p>
 <p><strong>1&#xFF09;&#x8BA1;&#x7B97; Nonce &#x9700;&#x8981;&#x82B1;&#x8D39;&#x65F6;&#x95F4;&#x8FDB;&#x884C;&#x968F;&#x673A;&#x78B0;&#x649E;&#xFF0C;&#x4F46;&#x662F;&#x9A8C;&#x8BC1; Nonce &#x53EA;&#x9700;&#x8981;&#x4E00;&#x6B21;&#x54C8;&#x5E0C;&#x8FD0;&#x7B97;&#xFF1B;</strong></p>
 <p><strong>2&#xFF09;&#x8C03;&#x6574;&#x96BE;&#x5EA6;&#x4FBF;&#x662F;&#x8C03;&#x6574;&#x300C;&#x51FA;&#x5757;&#x901F;&#x5EA6;&#x300D;&#x3002;</strong></p>
-
+<footer class="page-footer"><span class="copyright">&#x674E;&#x5927;&#x72D7; Leeduckgo &#xA9; 2019  all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Last Modified: 
+2019-09-05
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
                                 
                                 </section>
                             
@@ -470,43 +599,106 @@ nonce is 8812787
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"4 Proof-of-Work 工作量证明","level":"1.6","depth":1,"next":{"title":"5 Network 网络","level":"1.7","depth":1,"path":"5_Network_网络.md","ref":"5_Network_网络.md","articles":[]},"previous":{"title":"3 TimeStamp_Server 时间戳服务器","level":"1.5","depth":1,"path":"3_TimeStamp_Server_时间戳服务器.md","ref":"3_TimeStamp_Server_时间戳服务器.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4_Proof-of-Work_工作量证明.md","mtime":"2019-09-05T15:18:43.254Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-05T15:18:55.297Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"4 Proof-of-Work 工作量证明","level":"1.6","depth":1,"next":{"title":"5 Network 网络","level":"1.7","depth":1,"path":"5_Network_网络.md","ref":"5_Network_网络.md","articles":[]},"previous":{"title":"3 TimeStamp_Server 时间戳服务器","level":"1.5","depth":1,"path":"3_TimeStamp_Server_时间戳服务器.md","ref":"3_TimeStamp_Server_时间戳服务器.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-lunr","-search","search-plus@^0.0.11","-highlight","-livereload","simple-page-toc@^0.1.1","github@^2.0.0","prism@^2.1.0","prism-themes@^0.0.2","advanced-emoji@^0.2.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","splitter@^0.0.8","mermaid-gb3@2.1.0","tbfed-pagefooter@^0.0.1","sectionx@^3.1.0","local-video@^1.0.1","sitemap-general@^0.1.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","musicxml@^1.0.2","klipse@^1.2.0","rss@^3.0.2","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0","ga","copy-code-button","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"李大狗 Leeduckgo © 2019 ","modify_label":"Last Modified: ","modify_format":"YYYY-MM-DD"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"include-csv":{},"emphasize":{},"ace":{},"github":{"url":"https://github.com/leeduckgo/bitcoin_elementary_course_based_on_jupyterlab.git"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"sitemap-general":{"prefix":"https://bitcoin.doge.university/book"},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"基于 JupyterLab 的比特币及速入门指南","description":"进入区块链世界的绝佳入口","author":"李大狗","feed_url":"https://bitcoin.doge.university/book/sitmap.xml","site_url":"https://bitcoin.doge.university/book","managingEditor":"leeduckg@gmail.com","webMaster":"leeduckg@gmail.com"},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":true,"isShowTocTitleIcon":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.png","bookmark":"favicon.png"},"theme-comscore":{},"prism-themes":{},"alerts":{},"3-ba":{"configuration":"auto","token":"e0f7e2879e5634cc0f587da6721b6860"},"local-video":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-123686345-1"},"klipse":{"myConfigKey":"it's the default value"},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"李大狗","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"基于 JupyterLab 的比特币极速入门指南","language":"zh-hans","output.name":"site","links":{"sidebar":{"Home":"https://bitcoin.doge.university"}},"gitbook":"3.2.3","description":"进入区块链世界的绝佳入口"},"file":{"path":"4_Proof-of-Work_工作量证明.md","mtime":"2019-09-05T15:18:43.254Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-12T09:44:33.979Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
         
     
         
         <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
+        
+        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>

@@ -1,33 +1,90 @@
 
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-hans" >
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>【附】白皮书 原文+翻译+单词注释 · GitBook</title>
+        <title>【附】白皮书 原文+翻译+单词注释 · 基于 JupyterLab 的比特币极速入门指南</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="李大狗">
         
         
-        
+    
     
     <link rel="stylesheet" href="gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
                 
             
                 
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-alerts/style.css">
                 
             
                 
                 <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
                 
             
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
         
 
     
@@ -46,7 +103,14 @@
         
     
 
+
+    
+
         
+    
+    
+    
+    
     
     
     <meta name="HandheldFriendly" content="true"/>
@@ -63,6 +127,26 @@
     <link rel="prev" href="12_Conclusion_结论.html" />
     
 
+    
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    <link href="https://bitcoin.doge.university/book/sitmap.xml" title="基于 JupyterLab 的比特币及速入门指南" rel="alternate" type="application/rss+xml" />
+
+    
+        <link rel="shortcut icon" href='favicon.png' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='favicon.png' type="image/x-icon">
+    
+    
+    
+
     </head>
     <body>
         
@@ -71,7 +155,7 @@
         
             
 <div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+    <input type="text" placeholder="输入并搜索" />
 </div>
 
             
@@ -82,7 +166,16 @@
 <ul class="summary">
     
     
+    
+        
+        <li>
+            <a href="https://bitcoin.doge.university" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
 
+    
+    <li class="divider"></li>
     
 
     
@@ -93,6 +186,8 @@
             
                 <a href="./">
             
+                    
+                        <b>1.1.</b>
                     
                     0 序言
             
@@ -107,6 +202,8 @@
                 <a href="1_Introduction_简介.html">
             
                     
+                        <b>1.2.</b>
+                    
                     1 简介
             
                 </a>
@@ -119,6 +216,8 @@
             
                 <a href="2.1_Transaction_交易_电子货币的定义.html">
             
+                    
+                        <b>1.3.</b>
                     
                     2.1 Transaction 交易 —— 电子货币的定义
             
@@ -133,6 +232,8 @@
                 <a href="2.2_Transaction_交易_交易链的难点.html">
             
                     
+                        <b>1.4.</b>
+                    
                     2.2 Transaction 交易 —— 交易链的难点
             
                 </a>
@@ -145,6 +246,8 @@
             
                 <a href="3_TimeStamp_Server_时间戳服务器.html">
             
+                    
+                        <b>1.5.</b>
                     
                     3 TimeStamp_Server 时间戳服务器
             
@@ -159,6 +262,8 @@
                 <a href="4_Proof-of-Work_工作量证明.html">
             
                     
+                        <b>1.6.</b>
+                    
                     4 Proof-of-Work 工作量证明
             
                 </a>
@@ -171,6 +276,8 @@
             
                 <a href="5_Network_网络.html">
             
+                    
+                        <b>1.7.</b>
                     
                     5 Network 网络
             
@@ -185,6 +292,8 @@
                 <a href="6_Incentive_奖励.html">
             
                     
+                        <b>1.8.</b>
+                    
                     6 Incentive 奖励
             
                 </a>
@@ -197,6 +306,8 @@
             
                 <a href="7_Reclaiming_Disk_Space_回收硬盘空间.html">
             
+                    
+                        <b>1.9.</b>
                     
                     7 Reclaiming Disk Space 回收硬盘空间
             
@@ -211,6 +322,8 @@
                 <a href="8_Simplified_Payment_Verification_简化版支付确认.html">
             
                     
+                        <b>1.10.</b>
+                    
                     8 Simplified Payment Verification 简化版支付确认
             
                 </a>
@@ -223,6 +336,8 @@
             
                 <a href="9_Combining_and_Splitting_Value_值的组合与分割.html">
             
+                    
+                        <b>1.11.</b>
                     
                     9 Combining and Splitting Value 值的组合与分割
             
@@ -237,6 +352,8 @@
                 <a href="10_Privacy_隐私.html">
             
                     
+                        <b>1.12.</b>
+                    
                     10 Privacy 隐私
             
                 </a>
@@ -249,6 +366,8 @@
             
                 <a href="11_Calculations_计算.html">
             
+                    
+                        <b>1.13.</b>
                     
                     11 Calculations 计算
             
@@ -263,6 +382,8 @@
                 <a href="12_Conclusion_结论.html">
             
                     
+                        <b>1.14.</b>
+                    
                     12 Conclusion 结论
             
                 </a>
@@ -275,6 +396,8 @@
             
                 <a href="【附】白皮书_原文+翻译+单词注释.html">
             
+                    
+                        <b>1.15.</b>
                     
                     【附】白皮书 原文+翻译+单词注释
             
@@ -289,6 +412,8 @@
                 <a href="【附2】比特币相关网站.html">
             
                     
+                        <b>1.16.</b>
+                    
                     【附2】比特币相关网站
             
                 </a>
@@ -301,6 +426,8 @@
             
                 <a href="【附3】习题集.html">
             
+                    
+                        <b>1.17.</b>
                     
                     【附3】习题集
             
@@ -317,7 +444,7 @@
 
     <li>
         <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
+            本书使用 GitBook 发布
         </a>
     </li>
 </ul>
@@ -361,7 +488,9 @@
 <p><a href="https://bitcoin.doge.university/bitcoin_whitepaper.html#slide=2" target="_blank">https://bitcoin.doge.university/bitcoin_whitepaper.html#slide=2</a></p>
 <p><strong>&#x5355;&#x8BCD;&#x6CE8;&#x91CA;&#xFF1A;</strong></p>
 <p><a href="https://bitcoin.doge.university/bitcoin_whitepaper.html#slide=3" target="_blank">https://bitcoin.doge.university/bitcoin_whitepaper.html#slide=3</a></p>
-
+<footer class="page-footer"><span class="copyright">&#x674E;&#x5927;&#x72D7; Leeduckgo &#xA9; 2019  all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Last Modified: 
+2019-09-05
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
                                 
                                 </section>
                             
@@ -404,42 +533,106 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"【附】白皮书 原文+翻译+单词注释","level":"1.15","depth":1,"next":{"title":"【附2】比特币相关网站","level":"1.16","depth":1,"path":"【附2】比特币相关网站.md","ref":"【附2】比特币相关网站.md","articles":[]},"previous":{"title":"12 Conclusion 结论","level":"1.14","depth":1,"path":"12_Conclusion_结论.md","ref":"12_Conclusion_结论.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"【附】白皮书_原文+翻译+单词注释.md","mtime":"2019-09-05T15:18:43.499Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-05T15:18:55.297Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"【附】白皮书 原文+翻译+单词注释","level":"1.15","depth":1,"next":{"title":"【附2】比特币相关网站","level":"1.16","depth":1,"path":"【附2】比特币相关网站.md","ref":"【附2】比特币相关网站.md","articles":[]},"previous":{"title":"12 Conclusion 结论","level":"1.14","depth":1,"path":"12_Conclusion_结论.md","ref":"12_Conclusion_结论.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-lunr","-search","search-plus@^0.0.11","-highlight","-livereload","simple-page-toc@^0.1.1","github@^2.0.0","prism@^2.1.0","prism-themes@^0.0.2","advanced-emoji@^0.2.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","splitter@^0.0.8","mermaid-gb3@2.1.0","tbfed-pagefooter@^0.0.1","sectionx@^3.1.0","local-video@^1.0.1","sitemap-general@^0.1.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","musicxml@^1.0.2","klipse@^1.2.0","rss@^3.0.2","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0","ga","copy-code-button","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"李大狗 Leeduckgo © 2019 ","modify_label":"Last Modified: ","modify_format":"YYYY-MM-DD"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"include-csv":{},"emphasize":{},"ace":{},"github":{"url":"https://github.com/leeduckgo/bitcoin_elementary_course_based_on_jupyterlab.git"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"sitemap-general":{"prefix":"https://bitcoin.doge.university/book"},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"基于 JupyterLab 的比特币及速入门指南","description":"进入区块链世界的绝佳入口","author":"李大狗","feed_url":"https://bitcoin.doge.university/book/sitmap.xml","site_url":"https://bitcoin.doge.university/book","managingEditor":"leeduckg@gmail.com","webMaster":"leeduckg@gmail.com"},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":true,"isShowTocTitleIcon":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.png","bookmark":"favicon.png"},"theme-comscore":{},"prism-themes":{},"alerts":{},"3-ba":{"configuration":"auto","token":"e0f7e2879e5634cc0f587da6721b6860"},"local-video":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-123686345-1"},"klipse":{"myConfigKey":"it's the default value"},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"李大狗","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"基于 JupyterLab 的比特币极速入门指南","language":"zh-hans","output.name":"site","links":{"sidebar":{"Home":"https://bitcoin.doge.university"}},"gitbook":"3.2.3","description":"进入区块链世界的绝佳入口"},"file":{"path":"【附】白皮书_原文+翻译+单词注释.md","mtime":"2019-09-05T15:18:43.499Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-12T09:44:33.979Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
 
         
+    
     <script src="gitbook/gitbook.js"></script>
     <script src="gitbook/theme.js"></script>
     
         
-        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
         
     
         
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
         
     
         
         <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
+    
+        
+        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
 
     </body>
 </html>
