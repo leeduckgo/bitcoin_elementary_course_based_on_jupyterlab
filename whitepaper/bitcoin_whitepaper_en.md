@@ -9,7 +9,7 @@
 								lixiaolai@gmail.com
 								2018.10.31
 	
-								[Checkout Github Repo for this translation](https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation)
+	(https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation)
 
 
 
@@ -132,13 +132,13 @@ $$
 				\end{Bmatrix}
 $$
 
-Given our assumption that $p \gt q$, the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
+Given our assumption that p>q , the probability drops exponentially as the number of blocks the attacker has to catch up with increases. With the odds against him, if he doesn't make a lucky lunge forward early on, his chances become vanishingly small as he falls further behind.
 
 We now consider how long the recipient of a new transaction needs to wait before being sufficiently certain the sender can't change the transaction. We assume the sender is an attacker who wants to make the recipient believe he paid him for a while, then switch it to pay back to himself after some time has passed. The receiver will be alerted when that happens, but the sender hopes it will be too late.
 
 The receiver generates a new key pair and gives the public key to the sender shortly before signing. This prevents the sender from preparing a chain of blocks ahead of time by working on it continuously until he is lucky enough to get far enough ahead, then executing the transaction at that moment. Once the transaction is sent, the dishonest sender starts working in secret on a parallel chain containing an alternate version of his transaction.
 
-The recipient waits until the transaction has been added to a block and $z$ blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
+The recipient waits until the transaction has been added to a block and z​ blocks have been linked after it. He doesn't know the exact amount of progress the attacker has made, but assuming the honest blocks took the average expected time per block, the attacker's potential progress will be a Poisson distribution with expected value:
 
 $$
 \large \lambda = z \frac qp
@@ -182,7 +182,7 @@ double AttackerSuccessProbability(double q, int z)
 }
 ```
 
-Running some results, we can see the probability drop off exponentially with $z$.
+Running some results, we can see the probability drop off exponentially with z​.
 
 ```
    q=0.1
