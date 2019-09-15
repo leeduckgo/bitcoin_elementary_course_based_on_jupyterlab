@@ -48,6 +48,7 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 - 英文版比特币白皮书：https://bitcoin.org/bitcoin.pdf
 - 至今为止最好的翻译 by 李笑来：https://github.com/xiaolai/bitcoin-whitepaper-chinese-translation/blob/master/Bitcoin-Whitepaper-EN-CN.md
 - ECDSA 密码学库: https://github.com/warner/python-ecdsa
+- Draveness 博客：https://draveness.me/tag/%E5%8C%BA%E5%9D%97%E9%93%BE
 
 ## 作者联系方式
 
