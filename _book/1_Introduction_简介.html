@@ -1,0 +1,584 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>1 简介 · 基于 JupyterLab 的比特币极速入门指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="李大狗">
+        
+        
+    
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2.1_Transaction_交易_电子货币的定义.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    
+    <link rel="stylesheet" href="gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    <link href="https://bitcoin.doge.university/book/sitmap.xml" title="基于 JupyterLab 的比特币及速入门指南" rel="alternate" type="application/rss+xml" />
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://bitcoin.doge.university" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    0 序言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="1_Introduction_简介.html">
+            
+                <a href="1_Introduction_简介.html">
+            
+                    
+                    1 简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2.1_Transaction_交易_电子货币的定义.html">
+            
+                <a href="2.1_Transaction_交易_电子货币的定义.html">
+            
+                    
+                    2.1 Transaction 交易 —— 电子货币的定义
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="2.2_Transaction_交易_交易链的难点.html">
+            
+                <a href="2.2_Transaction_交易_交易链的难点.html">
+            
+                    
+                    2.2 Transaction 交易 —— 交易链的难点
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="3_TimeStamp_Server_时间戳服务器.html">
+            
+                <a href="3_TimeStamp_Server_时间戳服务器.html">
+            
+                    
+                    3 TimeStamp_Server 时间戳服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="4_Proof-of-Work_工作量证明.html">
+            
+                <a href="4_Proof-of-Work_工作量证明.html">
+            
+                    
+                    4 Proof-of-Work 工作量证明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="5_Network_网络.html">
+            
+                <a href="5_Network_网络.html">
+            
+                    
+                    5 Network 网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="6_Incentive_奖励.html">
+            
+                <a href="6_Incentive_奖励.html">
+            
+                    
+                    6 Incentive 奖励
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="7_Reclaiming_Disk_Space_回收硬盘空间.html">
+            
+                <a href="7_Reclaiming_Disk_Space_回收硬盘空间.html">
+            
+                    
+                    7 Reclaiming Disk Space 回收硬盘空间
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="8_Simplified_Payment_Verification_简化版支付确认.html">
+            
+                <a href="8_Simplified_Payment_Verification_简化版支付确认.html">
+            
+                    
+                    8 Simplified Payment Verification 简化版支付确认
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="9_Combining_and_Splitting_Value_值的组合与分割.html">
+            
+                <a href="9_Combining_and_Splitting_Value_值的组合与分割.html">
+            
+                    
+                    9 Combining and Splitting Value 值的组合与分割
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="10_Privacy_隐私.html">
+            
+                <a href="10_Privacy_隐私.html">
+            
+                    
+                    10 Privacy 隐私
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="11_Calculations_计算.html">
+            
+                <a href="11_Calculations_计算.html">
+            
+                    
+                    11 Calculations 计算
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="12_Conclusion_结论.html">
+            
+                <a href="12_Conclusion_结论.html">
+            
+                    
+                    12 Conclusion 结论
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <a target="_blank" href="https://bitcoin.doge.university/whitepaper/index.html">
+            
+                    
+                    【附】白皮书 原文+翻译+单词注释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="【附2】比特币相关网站.html">
+            
+                <a href="【附2】比特币相关网站.html">
+            
+                    
+                    【附2】比特币相关网站
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <a target="_blank" href="https://wj.qq.com/s2/4518222/3cc5/">
+            
+                    
+                    【附3】习题集
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >1 简介</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#1-&#x7B80;&#x4ECB;&#xFF08;introduction&#xFF09;">1 &#x7B80;&#x4ECB;&#xFF08;Introduction&#xFF09;</a></li><ul><li><a href="#&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;">&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;</a></li><li><a href="#&#x89E3;&#x8BFB;">&#x89E3;&#x8BFB;</a></li></ul></ul></div><a href="#1-&#x7B80;&#x4ECB;&#xFF08;introduction&#xFF09;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="1-&#x7B80;&#x4ECB;&#xFF08;introduction&#xFF09;"><a name="1-&#x7B80;&#x4ECB;&#xFF08;introduction&#xFF09;" class="anchor-navigation-ex-anchor" href="#1-&#x7B80;&#x4ECB;&#xFF08;introduction&#xFF09;"><i class="fa fa-link" aria-hidden="true"></i></a>1 &#x7B80;&#x4ECB;&#xFF08;Introduction&#xFF09;</h1>
+<h2 id="&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;"><a name="&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;" class="anchor-navigation-ex-anchor" href="#&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x539F;&#x6587;&#x4E0E;&#x7FFB;&#x8BD1;</h2>
+<p>Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. The cost of mediation increases transaction costs, limiting the minimum practical transaction size and cutting off the possibility for small casual transactions, and there is a broader cost in the loss of ability to make non-reversible payments for non-reversible services. With the possibility of reversal, the need for trust spreads. Merchants must be wary of their customers, hassling them for more information than they would otherwise need. A certain percentage of fraud is accepted as unavoidable. These costs and payment uncertainties can be avoided in person by using physical currency, but no mechanism exists to make payments over a communications channel without a trusted party.</p>
+<p>What is needed is an electronic payment system based on cryptographic proof instead of trust, allowing any two willing parties to transact directly with each other without the need for a trusted third party. Transactions that are computationally impractical to reverse would protect sellers from fraud, and routine escrow mechanisms could easily be implemented to protect buyers. In this paper, we propose a solution to the double-spending problem using a peer-to-peer distributed timestamp server to generate computational proof of the chronological order of transactions. The system is secure as long as honest nodes collectively control more CPU power than any cooperating group of attacker nodes.</p>
+<p>&#x4E92;&#x8054;&#x7F51;&#x5546;&#x4E1A;&#x51E0;&#x4E4E;&#x5B8C;&#x5168;&#x4F9D;&#x8D56;&#x91D1;&#x878D;&#x673A;&#x6784;&#x4F5C;&#x4E3A;&#x53EF;&#x4FE1;&#x7B2C;&#x4E09;&#x65B9;&#x53BB;&#x5904;&#x7406;&#x7535;&#x5B50;&#x652F;&#x4ED8;&#x3002;&#x867D;&#x7136;&#x9488;&#x5BF9;&#x5927;&#x591A;&#x6570;&#x4EA4;&#x6613;&#x6765;&#x8BF4;&#xFF0C;&#x8FD9;&#x4E2A;&#x7CFB;&#x7EDF;&#x8FD8;&#x7B97;&#x4E0D;&#x9519;&#xFF0C;&#x4F46;&#xFF0C;&#x5B83;&#x4ECD;&#x7136;&#x88AB;&#x57FA;&#x4E8E;&#x4FE1;&#x4EFB;&#x7684;&#x6A21;&#x578B;&#x6240;&#x56FA;&#x6709;&#x7684;&#x7F3A;&#x9677;&#x6240;&#x62D6;&#x7D2F;&#x3002;&#x5B8C;&#x5168;&#x4E0D;&#x53EF;&#x9006;&#x8F6C;&#x7684;&#x4EA4;&#x6613;&#x5B9E;&#x9645;&#x4E0A;&#x5E76;&#x4E0D;&#x53EF;&#x80FD;&#xFF0C;&#x56E0;&#x4E3A;&#x91D1;&#x878D;&#x673A;&#x6784;&#x4E0D;&#x80FD;&#x907F;&#x514D;&#x4EF2;&#x88C1;&#x4E89;&#x8BAE;&#x3002;&#x4EF2;&#x88C1;&#x6210;&#x672C;&#x589E;&#x52A0;&#x4E86;&#x4EA4;&#x6613;&#x6210;&#x672C;&#xFF0C;&#x8FDB;&#x800C;&#x9650;&#x5236;&#x4E86;&#x6700;&#x5C0F;&#x53EF;&#x80FD;&#x4EA4;&#x6613;&#x7684;&#x89C4;&#x6A21;&#xFF0C;&#x4E14;&#x5E72;&#x8106;&#x963B;&#x6B62;&#x4E86;&#x5F88;&#x591A;&#x5C0F;&#x989D;&#x652F;&#x4ED8;&#x4EA4;&#x6613;&#x3002;&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x66F4;&#x5927;&#x7684;&#x6210;&#x672C;&#xFF1A;&#x7CFB;&#x7EDF;&#x65E0;&#x6CD5;&#x4E3A;&#x90A3;&#x4E9B;&#x4E0D;&#x53EF;&#x9006;&#x7684;&#x670D;&#x52A1;&#x63D0;&#x4F9B;&#x4E0D;&#x53EF;&#x9006;&#x7684;&#x652F;&#x4ED8;&#x3002;&#x9006;&#x8F6C;&#x7684;&#x53EF;&#x80FD;&#x6027;&#xFF0C;&#x9020;&#x6210;&#x4E86;&#x5BF9;&#x4E8E;&#x4FE1;&#x4EFB;&#x7684;&#x9700;&#x6C42;&#x65E0;&#x6240;&#x4E0D;&#x5728;&#x3002;&#x5546;&#x5BB6;&#x5FC5;&#x987B;&#x63D0;&#x9632;&#x7740;&#x4ED6;&#x4EEC;&#x7684;&#x987E;&#x5BA2;&#xFF0C;&#x9EBB;&#x70E6;&#x987E;&#x5BA2;&#x63D0;&#x4F9B;&#x82E5;&#x975E;&#x5982;&#x6B64;&#xFF08;&#x5982;&#x82E5;&#x4FE1;&#x4EFB;&#xFF09;&#x5C31;&#x5E76;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#x3002;&#x4E00;&#x5B9A;&#x6BD4;&#x4F8B;&#x7684;&#x6B3A;&#x8BC8;&#xFF0C;&#x88AB;&#x8BA4;&#x4E3A;&#x662F;&#x4E0D;&#x53EF;&#x907F;&#x514D;&#x7684;&#x3002;&#x8FD9;&#x4E9B;&#x6210;&#x672C;&#x548C;&#x652F;&#x4ED8;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#xFF0C;&#x867D;&#x7136;&#x5728;&#x4EBA;&#x4E0E;&#x4EBA;&#x4E4B;&#x95F4;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x7269;&#x7406;&#x8D27;&#x5E01;&#x652F;&#x4ED8;&#x7684;&#x65F6;&#x5019;&#x662F;&#x53EF;&#x4EE5;&#x907F;&#x514D;&#x7684;&#xFF1B;&#x4F46;&#xFF0C;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x673A;&#x5236;&#x80FD;&#x5728;&#x53CC;&#x65B9;&#x5728;&#x5176;&#x4E2D;&#x4E00;&#x65B9;&#x4E0D;&#x88AB;&#x4FE1;&#x4EFB;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x901A;&#x8FC7;&#x6C9F;&#x901A;&#x6E20;&#x9053;&#x8FDB;&#x884C;&#x652F;&#x4ED8;&#x3002;</p>
+<p>&#x6211;&#x4EEC;&#x771F;&#x6B63;&#x9700;&#x8981;&#x7684;&#x662F;&#x4E00;&#x79CD;&#x57FA;&#x4E8E;&#x52A0;&#x5BC6;&#x8BC1;&#x660E;&#x800C;&#x975E;&#x57FA;&#x4E8E;&#x4FE1;&#x4EFB;&#x7684;&#x7535;&#x5B50;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#xFF0C;&#x5141;&#x8BB8;&#x4EFB;&#x610F;&#x53CC;&#x65B9;&#x5728;&#x4E0D;&#x9700;&#x8981;&#x4FE1;&#x4EFB;&#x7B2C;&#x4E09;&#x65B9;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x76F4;&#x63A5;&#x4EA4;&#x6613;&#x3002;&#x7B97;&#x529B;&#x4FDD;&#x969C;&#x7684;&#x4E0D;&#x53EF;&#x9006;&#x8F6C;&#x4EA4;&#x6613;&#x80FD;&#x5E2E;&#x52A9;&#x5356;&#x5BB6;&#x4E0D;&#x88AB;&#x6B3A;&#x8BC8;&#xFF0C;&#x800C;&#x4FDD;&#x62A4;&#x4E70;&#x5BB6;&#x7684;&#x65E5;&#x5E38;&#x62C5;&#x4FDD;&#x673A;&#x5236;&#x4E5F;&#x5F88;&#x5BB9;&#x6613;&#x5B9E;&#x73B0;&#x3002;&#x5728;&#x672C;&#x8BBA;&#x6587;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x63D0;&#x51FA;&#x4E00;&#x79CD;&#x9488;&#x5BF9;&#x53CC;&#x91CD;&#x652F;&#x51FA;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x4F7F;&#x7528;&#x70B9;&#x5BF9;&#x70B9;&#x7684;&#x3001;&#x5206;&#x5E03;&#x5F0F;&#x7684;&#x65F6;&#x95F4;&#x6233;&#x670D;&#x52A1;&#x5668;&#x53BB;&#x751F;&#x6210;&#x57FA;&#x4E8E;&#x7B97;&#x529B;&#x7684;&#x8BC1;&#x660E;&#xFF0C;&#x6309;&#x7167;&#x65F6;&#x95F4;&#x987A;&#x5E8F;&#x8BB0;&#x5F55;&#x6BCF;&#x6761;&#x4EA4;&#x6613;&#x3002;&#x6B64;&#x7CFB;&#x7EDF;&#x662F;&#x5B89;&#x5168;&#x7684;&#xFF0C;&#x53EA;&#x8981;&#x8BDA;&#x5B9E;&#x8282;&#x70B9;&#x603B;&#x4F53;&#x4E0A;&#x76F8;&#x5BF9;&#x4E8E;&#x76F8;&#x4E92;&#x5408;&#x4F5C;&#x7684;&#x653B;&#x51FB;&#x8005;&#x638C;&#x63E1;&#x66F4;&#x591A;&#x7684; CPU &#x7B97;&#x529B;&#x3002;</p>
+<h2 id="&#x89E3;&#x8BFB;"><a name="&#x89E3;&#x8BFB;" class="anchor-navigation-ex-anchor" href="#&#x89E3;&#x8BFB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x89E3;&#x8BFB;</h2>
+<p>&#x672C;&#x8282;&#x4E3B;&#x8981;&#x9610;&#x8FF0;&#x4E86;&#x300C;&#x533A;&#x5757;&#x94FE;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#x300D;&#x76F8;&#x5BF9;&#x300C;&#x4F20;&#x7EDF;&#x7535;&#x5B50;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#x300D;&#x7684;&#x4F18;&#x52BF;&#xFF1A;</p>
+<ul>
+<li>&#x533A;&#x5757;&#x94FE;&#x652F;&#x4ED8;&#x7CFB;&#x7EDF;&#x964D;&#x4F4E;&#x4E86;&#x6210;&#x672C;</li>
+<li>&#x4E70;&#x5BB6;&#x65E0;&#x9700;&#x63D0;&#x4F9B;&#x8FC7;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x5B9A;&#x7A0B;&#x5EA6;&#x4E0A;&#x7684;&#x533F;&#x540D;</li>
+<li>&#x63D0;&#x51FA;&#x4E86;&#x4E00;&#x79CD;&#x5728;&#x6CA1;&#x6709;&#x88AB;&#x4FE1;&#x4EFB;&#x7684;&#x7B2C;&#x4E09;&#x65B9;&#xFF08;&#x4E2D;&#x5FC3;&#xFF09;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4E5F;&#x80FD;&#x89E3;&#x51B3;&#x53CC;&#x91CD;&#x652F;&#x4ED8;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6848;</li>
+</ul>
+<p>&#x5927;&#x767D;&#x8BDD;&#x603B;&#x7ED3;&#xFF0C;&#x5373;&#x662F;&#xFF1A;
+<strong>&#x4F20;&#x7EDF;&#x7684;&#x7CFB;&#x7EDF;&#x91CC;&#xFF0C;&#x6211;&#x548C;&#x964C;&#x751F;&#x4EBA;&#x4EA4;&#x6613;&#x9700;&#x8981;&#x7B2C;&#x4E09;&#x65B9;&#xFF08;&#x56FD;&#x5BB6;&#x3001;&#x673A;&#x6784;&#xFF09;&#x80CC;&#x4E66;&#x3002;&#x800C;&#x5728;&#x8FD9;&#x4E2A;&#x7CFB;&#x7EDF;&#x91CC;&#xFF0C;&#x80CC;&#x4E66;&#x7684;&#x662F;&#x7CFB;&#x7EDF;&#x672C;&#x8EAB;&#x7684;&#x89C4;&#x5219;&#x3002;</strong></p>
+<footer class="page-footer"><span class="copyright">&#x674E;&#x5927;&#x72D7; Leeduckgo &#xA9; 2019  all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">Last Modified: 
+2019-09-05
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 0 序言">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2.1_Transaction_交易_电子货币的定义.html" class="navigation navigation-next " aria-label="Next page: 2.1 Transaction 交易 —— 电子货币的定义">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"1 简介","level":"1.2","depth":1,"next":{"title":"2.1 Transaction 交易 —— 电子货币的定义","level":"1.3","depth":1,"path":"2.1_Transaction_交易_电子货币的定义.md","ref":"2.1_Transaction_交易_电子货币的定义.md","articles":[]},"previous":{"title":"0 序言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-plus@^0.0.11","-highlight","-livereload","simple-page-toc@^0.1.1","github@^2.0.0","prism@^2.1.0","prism-themes@^0.0.2","advanced-emoji@^0.2.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","splitter@^0.0.8","mermaid-gb3@2.1.0","tbfed-pagefooter@^0.0.1","sectionx@^3.1.0","local-video@^1.0.1","sitemap-general@^0.1.1","anchor-navigation-ex@0.1.8","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","klipse@^1.2.0","rss@^3.0.2","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0","ga","copy-code-button","livereload"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"李大狗 Leeduckgo © 2019 ","modify_label":"Last Modified: ","modify_format":"YYYY-MM-DD"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"include-csv":{},"emphasize":{},"ace":{},"github":{"url":"https://github.com/leeduckgo/bitcoin_elementary_course_based_on_jupyterlab.git"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"sitemap-general":{"prefix":"https://bitcoin.doge.university/book"},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"基于 JupyterLab 的比特币及速入门指南","description":"进入区块链世界的绝佳入口","author":"李大狗","feed_url":"https://bitcoin.doge.university/book/sitmap.xml","site_url":"https://bitcoin.doge.university/book","managingEditor":"leeduckg@gmail.com","webMaster":"leeduckg@gmail.com"},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":false,"isShowTocTitleIcon":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"prism-themes":{},"alerts":{},"3-ba":{"configuration":"auto","token":"e0f7e2879e5634cc0f587da6721b6860"},"mathjax":{"forceSVG":true},"local-video":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-123686345-1"},"klipse":{"myConfigKey":"it's the default value"},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"李大狗","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"基于 JupyterLab 的比特币极速入门指南","language":"zh-hans","output.name":"site","links":{"sidebar":{"Home":"https://bitcoin.doge.university"}},"gitbook":"3.2.3","description":"进入区块链世界的绝佳入口"},"file":{"path":"1_Introduction_简介.md","mtime":"2019-09-05T15:18:43.048Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-09-15T05:56:07.487Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    <script src="gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+

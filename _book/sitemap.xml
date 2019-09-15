@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url> <loc>https://bitcoin.doge.university/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/1_Introduction_简介.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/2.1_Transaction_交易_电子货币的定义.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/2.2_Transaction_交易_交易链的难点.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/3_TimeStamp_Server_时间戳服务器.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/4_Proof-of-Work_工作量证明.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/5_Network_网络.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/6_Incentive_奖励.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/7_Reclaiming_Disk_Space_回收硬盘空间.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/8_Simplified_Payment_Verification_简化版支付确认.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/9_Combining_and_Splitting_Value_值的组合与分割.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/10_Privacy_隐私.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/11_Calculations_计算.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/12_Conclusion_结论.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://bitcoin.doge.university/【附2】比特币相关网站.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+</urlset>
