@@ -14,7 +14,7 @@
 * [10 Privacy 隐私](10_Privacy_隐私.md)
 * [11 Calculations 计算](11_Calculations_计算.md)
 * [12 Conclusion 结论](12_Conclusion_结论.md)
-* [【附】白皮书 原文+翻译+单词注释](https://bitcoin.doge.university/whitepaper/index.html)
+* [【附】白皮书 原文+翻译+单词注释](https://bitcoin.doge.university/whitepaper/book/index.html)
 * [【附2】比特币相关网站](【附2】比特币相关网站.md)
 * [【附3】习题集](https://wj.qq.com/s2/4518222/3cc5/)
 
