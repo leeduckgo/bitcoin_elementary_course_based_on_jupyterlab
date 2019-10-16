@@ -7,6 +7,10 @@
 
 https://bitcoin.doge.university
 
+**互动教程地址：**
+
+https://xue.cn/hub/app/books/3
+
 **进阶课程地址：**
 
 https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
