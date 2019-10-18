@@ -23,10 +23,6 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 
   可能你已经入门了 Python，可能你刚刚学完[《自学是门手艺》](https://github.com/selfteaching/the-craft-of-selfteaching)。那么把这本教程当成你的第一个「进阶项目」吧！你能体会到编程作为「思考辅助工具」的巨大威力。
 
-- 比特币长期投资者
-
-  拿住比特币的关键，其实在于对比特币的理解是 90%，还是 99%，还是 99.99%……任何一个投资者，都有必要去从技术上了解比特币。
-
 - 想要了解区块链的开发者
 
   你是一名开发者，最近听说了区块链。那么来看这本教程吧！你将体验「闪电入门」的快感。
