@@ -8,7 +8,7 @@
 
 ↓多语言支持美滋滋↓
 
-![image-20191019212151536](https://tva1.sinaimg.cn/large/006y8mN6ly1g83trp8996j31bi0u0jwj.jpg)
+![image-20191019212151536](multi_lang.png)
 
 
 
@@ -49,15 +49,15 @@ Https://bitcoin.doge.university
 
 - Gh-pages 的使用。过去看别人用 Gh-pages，这次自己尝试了一把；
 
-- 用 GitBook 制作电子书。这是个老牌工具了，而且目前也不更新了。不过这种工具嘛……更不更新也无所谓，够用。不过在生成之后还有一些地方需要手动改代码，确实挺烦的……期待以后有更好的解决方案（Vue-Press？）
+- 用 GitBook 制作电子书。这是个老牌工具了，而且目前也不更新了。不过这种工具嘛……更不更新也无所谓，够用。不过在生成之后还有一些地方需要手动改代码，确实挺烦的……期待以后有更好的解决方案。（Vue-Press？）
 
   （GitBook 手机适配、悬浮目录、返回顶部等功能还是挺不错的）
 
-  <img src="/Users/liaohua/Library/Application Support/typora-user-images/image-20191019224513777.png" alt="image-20191019224513777" style="zoom:50%;" />
+  <img src="mobile_v.png" alt="image-20191019224513777" style="zoom:50%;" />
 
 - 通过 Issues 来写项目博客（记录项目信息）。这个方案有利有弊：利在于有不同颜色的标签🏷，还有接口能查到内容，而且方便看项目的人找到；弊在于和真正的 Issues 会有混淆。所以还是要依据实际情况进行取舍。
 
-  <img src="/Users/liaohua/Library/Application Support/typora-user-images/image-20191019224137205.png" alt="image-20191019224137205" style="zoom:50%;" />
+  <img src="issues.png" alt="image-20191019224137205" style="zoom:50%;" />
 
 一个小细节：
 
