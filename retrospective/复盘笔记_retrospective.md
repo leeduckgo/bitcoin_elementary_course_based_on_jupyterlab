@@ -65,7 +65,7 @@ Https://bitcoin.doge.university
 
 建好后发现这个站不只是个用以学习的 DEMO，自己平时查查也挺方便的~
 
-10 月 16 号，[「比特币极速入门指南」](https://xue.cn/hub/app/books/3)上线 [Xue.cn](https://xue.cn)
+10 月 16 号，[「比特币极速入门指南」](https://xue.cn/hub/app/books/3)上线 [Xue.cn](https://xue.cn)。
 
 ### 4 致谢
 
