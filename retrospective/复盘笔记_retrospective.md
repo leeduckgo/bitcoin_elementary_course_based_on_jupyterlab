@@ -1,6 +1,6 @@
-## 1 初心
+### 1 初心
 
-19 年 5 月 25 日，笑来老师发布「自学是门手艺」一书不久，同时 Xue.Cn 内测。
+19 年 5 月 25 日，「自学是门手艺」一书发布不久，同时 Xue.Cn 内测。
 
 之前在搞机器学习当调参侠的时候接触过 Jupyter Notebook，但当时仅仅觉得这是个好用的可运行 Python 代码的**笔记工具**。这次的机缘让我重新审视它。
 
@@ -8,15 +8,15 @@
 
 ↓多语言支持美滋滋↓
 
-![image-20191019212151536](multi_lang.png)
+![image-20191019212151536](https://tva1.sinaimg.cn/large/006y8mN6ly1g85oszywz0j31bi0u0tbc.jpg)
 
 
 
-然后就打算用 JupyterLab 写一本关于 **「比特币的技术教程」**，选择这个标的的目的也很简单：**1）之前写过一本「大狗精读区块链」，这次做个迭代；2）自己是高区块链的，从这个方向切入能加强自己对区块链的理解；3）对区块链未来的发展十分看好。**
+然后就打算用 JupyterLab 写一本关于 **「比特币的技术教程」**，选择这个标的的目的也很简单：**1）之前写过一本「大狗精读区块链」，这次做个迭代；2）自己是搞区块链的，从这个方向切入能加强自己对区块链的理解；3）对区块链未来的发展十分看好。**
 
 于是乎开始动手。
 
-## 2 边学边写
+### 2 边学边写
 
 首先研究了一番 JupyterLab，发现几个点很有意思，可以玩很多花活：
 
@@ -39,7 +39,7 @@
 
 https://github.com/leeduckgo/bitcoin_elementary_course_based_on_jupyterlab/projects/1
 
-## 3 迭代
+### 3 迭代
 
 这时发现可以做更多的事情，例如搞个学习区块链知识的网站：
 
@@ -53,11 +53,11 @@ Https://bitcoin.doge.university
 
   （GitBook 手机适配、悬浮目录、返回顶部等功能还是挺不错的）
 
-  <img src="mobile_v.png" alt="image-20191019224513777" style="zoom:50%;" />
+  <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g85ot2pb2uj30ku11211s.jpg" alt="image-20191019224513777" style="zoom:50%;" />
 
 - 通过 Issues 来写项目博客（记录项目信息）。这个方案有利有弊：利在于有不同颜色的标签🏷，还有接口能查到内容，而且方便看项目的人找到；弊在于和真正的 Issues 会有混淆。所以还是要依据实际情况进行取舍。
 
-  <img src="issues.png" alt="image-20191019224137205" style="zoom:50%;" />
+  <img src="https://tva1.sinaimg.cn/large/006y8mN6ly1g85ot5h4d7j30sw0nsjwa.jpg" alt="image-20191019224137205" style="zoom:50%;" />
 
 一个小细节：
 
@@ -67,7 +67,7 @@ Https://bitcoin.doge.university
 
 10 月 16 号，[「比特币极速入门指南」](https://xue.cn/hub/app/books/3)上线 [Xue.cn](https://xue.cn)
 
-## 4 致谢
+### 4 致谢
 
 感谢 @杨小二 在前端问题上的指导；
 
