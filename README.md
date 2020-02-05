@@ -63,21 +63,37 @@ https://github.com/albertschr/bitcoin_advanced_course_based_on_jupyterlab
 ## 目录
 
 [0 序言](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/0_%E5%BA%8F%E8%A8%80.ipynb)
+
 [1 简介](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/1_Introduction_%E7%AE%80%E4%BB%8B.ipynb)
+
 [2.1 交易（Transactions）—— 电子货币的定义](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/2.1_Transaction_%E4%BA%A4%E6%98%93_%E7%94%B5%E5%AD%90%E8%B4%A7%E5%B8%81%E7%9A%84%E5%AE%9A%E4%B9%89.ipynb)
+
 [2.2 交易（Transactions）—— 交易链的难点](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/2.2_Transaction_%E4%BA%A4%E6%98%93_%E4%BA%A4%E6%98%93%E9%93%BE%E7%9A%84%E9%9A%BE%E7%82%B9.ipynb)
+
 [3 时间戳服务器 (Timestamp Server) —— 区块的链](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/3_TimeStamp_Server_%E6%97%B6%E9%97%B4%E6%88%B3%E6%9C%8D%E5%8A%A1%E5%99%A8.ipynb)
+
 [4 工作量证明 (Proof-of-Work)](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/4_Proof-of-Work_%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E.ipynb)
+
 [5 网络 (Network)](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/5_Network_%E7%BD%91%E7%BB%9C.ipynb)
+
 [6 激励（Incentive）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/6_Incentive_%E5%A5%96%E5%8A%B1.ipynb)
+
 [7 回收硬盘空间（Reclaiming Disk Space）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/7_Reclaiming_Disk_Space_%E5%9B%9E%E6%94%B6%E7%A1%AC%E7%9B%98%E7%A9%BA%E9%97%B4.ipynb)
+
 [8 简化版支付确认（Simplified Payment Verification Privacy）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/8_Simplified_Payment_Verification_%E7%AE%80%E5%8C%96%E7%89%88%E6%94%AF%E4%BB%98%E7%A1%AE%E8%AE%A4.ipynb)
+
 [9 Combining and Splitting Value（值的组合与分割）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/9_Combining_and_Splitting_Value_%E5%80%BC%E7%9A%84%E7%BB%84%E5%90%88%E4%B8%8E%E5%88%86%E5%89%B2.ipynb)
+
 [10 隐私（Privacy）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/10_Privacy_%E9%9A%90%E7%A7%81.ipynb)
+
 [11 计算（Calculations）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/11_Calculations_%E8%AE%A1%E7%AE%97.ipynb)
+
 [12 结论（Conclusion）](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/12_Conclusion_%E7%BB%93%E8%AE%BA.ipynb)
+
 [附录A 白皮书_原文+翻译+单词注释](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/%E3%80%90%E9%99%84%E3%80%91%E7%99%BD%E7%9A%AE%E4%B9%A6_%E5%8E%9F%E6%96%87+%E7%BF%BB%E8%AF%91+%E5%8D%95%E8%AF%8D%E6%B3%A8%E9%87%8A.ipynb)
+
 [附录B 比特币相关网站](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/%E3%80%90%E9%99%842%E3%80%91%E6%AF%94%E7%89%B9%E5%B8%81%E7%9B%B8%E5%85%B3%E7%BD%91%E7%AB%99.ipynb)
+
 [附录C 习题集](https://xue.cn/visitor/reader?bookId=3&mode=visitor&path=bitcoin_elementary_course_based_on_jupyterlab/%E3%80%90%E9%99%843%E3%80%91%E4%B9%A0%E9%A2%98%E9%9B%86.ipynb)
 
 ## 作者联系方式（加我进学习群）
